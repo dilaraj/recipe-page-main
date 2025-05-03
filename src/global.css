@@ -178,3 +178,35 @@
 .nutritionTable > div:nth-last-child(-n+2) {
     border: none;
 }
+
+@media (max-width: 600px) {
+    .recipeCard {
+        width: 90vw;
+        padding: 1.25em;
+    }
+
+    .recipeImg img {
+        width: 100%;
+    }
+
+    .container {
+        padding: 2em 0;
+    }
+
+    .recipleTitle {
+        font-size: 1.5rem;
+    }
+
+    .recipeDescription,
+    .prepInfo li,
+    .ingredientContainer li,
+    .instructionsContainer li,
+    .nutritionText,
+    .nutritionTable {
+        font-size: 0.875rem;
+    }
+
+    .header {
+        font-size: 1.125rem
+    }
+}
