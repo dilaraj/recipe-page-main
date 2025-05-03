@@ -181,7 +181,7 @@
 
 @media (max-width: 600px) {
     .recipeCard {
-        width: 100%;
+        width: 90vw;
         padding: 1.25em;
     }
 
@@ -190,7 +190,7 @@
     }
 
     .container {
-        padding: 0;
+        padding: 2em 0;
     }
 
     .recipleTitle {
@@ -207,6 +207,6 @@
     }
 
     .header {
-        font-size: 1.125rem
+        font-size: 1.125rem;
     }
 }
